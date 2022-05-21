@@ -8,9 +8,21 @@
     "url": "git+https://github.com/Ch4n9hee/wetube.git"
   },
   "author": "Ch4n9hee<hch9510@gmail.com>",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ch4n9hee/wetube/issues"
   },
-  "homepage": "https://github.com/Ch4n9hee/wetube#readme"
+  "homepage": "https://github.com/Ch4n9hee/wetube#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.0",
+    "nodemon": "^2.0.16"
+  }
 }
