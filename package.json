@@ -1,0 +1,16 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ch4n9hee/wetube.git"
+  },
+  "author": "Ch4n9hee<hch9510@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ch4n9hee/wetube/issues"
+  },
+  "homepage": "https://github.com/Ch4n9hee/wetube#readme"
+}
