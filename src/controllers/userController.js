@@ -5,6 +5,7 @@ import bcrypt from "bcrypt";
 export const getJoin = (req, res) => {
   res.render("join", { pageTitle: "Join" });
 };
+
 export const postJoin = async (req, res) => {
   const { name, username, email, password, password2, location } = req.body;
   const pageTitle = "Join";
@@ -150,7 +151,7 @@ export const postEdit = async (req, res) => {
   const updatedUser = await User.findByIdAndUpdate(
     _id,
     {
-      avatarUrl: file ? file.path : avatarUrl,
+      avatarUrl: file ? file.location : avatarUrl,
       name,
       email,
       username,
