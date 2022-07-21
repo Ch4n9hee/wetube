@@ -97,9 +97,9 @@ const handleMouseLeave = () => {
 };
 const handleKeyboard = (event) => {
   switch (event.key) {
-    case "f":
-      handleFullScreen();
-      break;
+    // case "f":
+    //   handleFullScreen();
+    //   break;
     case "m":
       handleMute();
       break;
@@ -126,15 +126,3 @@ videoContainer.addEventListener("mouseleave", handleMouseLeave);
 video.addEventListener("click", handlePlayClick);
 window.addEventListener("keydown", handleKeyboard);
 video.addEventListener("ended", handleEnded);
-
-class User {
-  constructor(name) {
-    name;
-  }
-  sayName() {
-    console.log(`Hello, My name is ${this.name}`);
-  }
-}
-
-let user = new User("changhee");
-user.sayName();
